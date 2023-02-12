@@ -1,0 +1,59 @@
+.skills button,
+.about button {
+    font-family: inherit;
+    display: inline-block;
+    line-height: 2.5em;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #fb7430;
+    transition: color .5s;
+    z-index: 1;
+    font-size: 17px;
+    border-radius: 6px;
+    font-weight: 500;
+    color: #fb7430;
+    background-color: #211f1f;
+    padding: 10px 35px;
+}
+
+.skills button:before,
+.about button:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: #fb7430;
+    height: 350px;
+    width: 500px;
+    border-radius: 50%;
+}
+
+.skills button:hover,
+.about button:hover {
+    color: #fff;
+}
+
+.skills button:before,
+.about button:before {
+    top: 100%;
+    left: 100%;
+    transition: all .7s;
+}
+
+.skills button:hover:before,
+.about button:hover:before {
+    top: -70px;
+    left: -70px;
+}
+
+button:hover a {
+    color: white;
+}
+
+@media (max-width: 768px) {
+
+    .skills button,
+    .about button {
+        padding: 0px 20px;
+    }
+}

@@ -1,0 +1,74 @@
+.card {
+    width: 50%;
+    background-color: #211f1f;
+    /* color: #fb7430; */
+}
+
+.card-button {
+    background-color: #fb7430;
+    border: 2px solid white;
+    color: white;
+    font-family: inherit;
+    display: inline-block;
+    line-height: 2.5em;
+    margin: 20px 0px;
+    position: relative;
+    overflow: hidden;
+    transition: background-color .5s;
+    z-index: 1;
+    font-size: 17px;
+    border-radius: 6px;
+    font-weight: 500;
+    padding: 0px 20px;
+}
+
+.card-button a {
+    color: white;
+}
+
+.card-button:hover {
+    background-color: white;
+    color: #fb7430;
+}
+
+.card-button:hover a {
+    color: #fb7430;
+}
+
+.usedSkills {
+    display: flex;
+}
+
+.card .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card .icons p {
+    font-size: 18px;
+}
+
+.card .icons .icon {
+    width: 100px;
+    font-size: 60px;
+}
+
+
+@media (max-width: 768px) {
+
+    .card-button {
+        padding: 0px 20px;
+        margin: 10px 0px;
+    }
+
+    .card .icons p {
+        font-size: 10px;
+    }
+
+    .card .icons .icon {
+        width: 50px;
+        font-size: 20px;
+    }
+}
