@@ -36,14 +36,18 @@
 }
 
 .usedSkills {
+    width: 45vw;
     display: flex;
+    justify-content: space-around;
 }
 
 .card .icons {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .card .icons p {
@@ -51,7 +55,7 @@
 }
 
 .card .icons .icon {
-    width: 100px;
+    width: 100%;
     font-size: 60px;
 }
 
@@ -63,12 +67,19 @@
         margin: 10px 0px;
     }
 
+    .usedSkills {
+        width: 95vw;
+    }
+
+    .card .icons .icon {
+        width: 90%;
+    }
+
     .card .icons p {
         font-size: 10px;
     }
 
     .card .icons .icon {
-        width: 50px;
         font-size: 20px;
     }
 }

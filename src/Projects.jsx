@@ -2,7 +2,7 @@ import React from "react";
 import Card from "./components/Card";
 import HorizontalBar from "./components/HorizontalBar";
 import "./App.css";
-import { AiFillHtml5 } from "react-icons/ai";
+import { AiFillHtml5, AiFillAndroid } from "react-icons/ai";
 import { RiFlutterFill } from "react-icons/ri";
 import {
   DiCss3,
@@ -35,6 +35,10 @@ const Projects = () => {
           <DiDart className="icon" />
           <p>Dart</p>
         </div>,
+        <div className="icons">
+          <AiFillAndroid className="icon" />
+          <p>Android</p>
+        </div>,
       ],
     },
     {
@@ -52,6 +56,10 @@ const Projects = () => {
         <div className="icons">
           <DiDart className="icon" />
           <p>Dart</p>
+        </div>,
+        <div className="icons">
+          <AiFillAndroid className="icon" />
+          <p>Android</p>
         </div>,
       ],
     },
@@ -111,7 +119,7 @@ const Projects = () => {
       desc: "A Quiz website using pure HTML, CSS, JavaScript with Admin Panel.",
       btnText: "Visit GitHub",
       imgSrc: quizzerImage,
-      btnUrl: "https://sahil-atahar.github.io/Responsive-Website/",
+      btnUrl: "https://github.com/Sahil-Atahar/Quizzer-with-Some-Features",
       usedSkills: [
         <div className="icons">
           <AiFillHtml5 className="icon" />
@@ -128,7 +136,7 @@ const Projects = () => {
       ],
     },
     {
-      title: "50+ HTML CSS JavaScript Projects",
+      title: "15+ HTML, CSS, JavaScript Projects",
       desc: "15+ projects using pure HTML, CSS, Vannila JavaScript.",
       btnText: "Visit GitHub",
       imgSrc: webProjectsImage,

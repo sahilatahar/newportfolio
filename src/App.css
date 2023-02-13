@@ -92,6 +92,7 @@ nav #hamburgeIcon {
 
 #image {
     width: 80%;
+    filter: drop-shadow(0px 0px 5px white);
 }
 
 .round-image {

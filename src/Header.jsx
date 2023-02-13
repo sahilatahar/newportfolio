@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import headerImage from "./images/header_image.jpg";
+import headerImage from "./images/header_image.png";
 
 const Header = () => {
   return (
@@ -12,7 +12,6 @@ const Header = () => {
             src={headerImage}
             alt="image"
             id="image"
-            className="round-image"
           />
         </div>
         <div className="col">

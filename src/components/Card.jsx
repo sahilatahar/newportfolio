@@ -16,16 +16,17 @@ const Card = (props) => {
             {props.usedSkills != undefined &&
               props.usedSkills.map((skillIcon) => {
                 return (
-                  <div key={props.usedSkills.indexOf(skillIcon)}>
+                  <div className="icons" key={props.usedSkills.indexOf(skillIcon)}>
                     {skillIcon}
                   </div>
                 );
               })}
           </div>
-          <button className="card-button">
-            <a href={props.btnUrl} target="_blank">
-              {props.btnText}
-            </a>
+          <button
+            className="card-button"
+            onClick={() => window.open(props.btnUrl)}
+          >
+            {props.btnText}
           </button>
         </div>
       </div>

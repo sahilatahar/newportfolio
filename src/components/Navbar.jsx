@@ -2,7 +2,7 @@ import React from "react";
 import "../App.css";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { useState } from "react";
-import navImage from "../images/header_image.jpg";
+import navImage from "../images/nav_image.jpg";
 
 const Navbar = () => {
   const [isVisible, setVisibility] = useState(false);
