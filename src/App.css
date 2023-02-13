@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
-html {
+/* html {
     scroll-behavior: smooth;
-}
+} */
 
 * {
     margin: 0;
@@ -87,7 +87,6 @@ nav #hamburgeIcon {
 
 .header {
     padding-top: 40px;
-    margin-top: 40px;
 }
 
 #image {

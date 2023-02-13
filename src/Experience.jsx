@@ -8,7 +8,7 @@ import proLangImage from "./images/p_language.jpg";
 const Experience = () => {
   return (
     <>
-      <hr id="experience" />
+      <div id="experience"></div>
       <HorizontalBar title="Skills & Experience" width="40vw" />
       <div className="skills">
         <div className="row">

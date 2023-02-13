@@ -8,11 +8,7 @@ const Header = () => {
       <div className="header" id="header"></div>
       <div className="row">
         <div className="col">
-          <img
-            src={headerImage}
-            alt="image"
-            id="image"
-          />
+          <img src={headerImage} alt="image" id="image" />
         </div>
         <div className="col">
           <h1>Hello , I am Sahil Atahar</h1>
