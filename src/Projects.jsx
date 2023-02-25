@@ -160,7 +160,7 @@ const Projects = () => {
 
   return (
     <div className="projects" id="projects">
-      <HorizontalBar title="Projects" bgColor="#fb7430" />
+      <HorizontalBar title="Projects" bgColor="var(--bg-color)" />
       {projects.map((project) => (
         <Card
           title={project.title}

@@ -9,17 +9,27 @@ const Navbar = () => {
 
   function toggleNavbar() {
     document.getElementById("navList").style.height = isVisible
-      ? "300px"
-      : "0px";
+      ? "0px"
+      : "300px";
     setVisibility(!isVisible);
   }
 
   function scrollTo(id) {
-    document.getElementById("navList").style.height = "0px";
-    setVisibility(!isVisible);
+    toggleNavbar();
     document
       .getElementById(id)
       .scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  function changeBgColor() {
+    var r = document.querySelector(":root");
+    var rs = getComputedStyle(r);
+    if (rs.getPropertyValue("--bg-color") === "#fb7430") {
+      r.style.setProperty("--bg-color", "#34bf49");
+    } else {
+      r.style.setProperty("--bg-color", "#fb7430");
+    }
+    toggleNavbar();
   }
 
   return (
@@ -34,6 +44,7 @@ const Navbar = () => {
         <li onClick={() => scrollTo("experience")}>Experience</li>
         <li onClick={() => scrollTo("projects")}>Projects</li>
         <li onClick={() => scrollTo("footer")}>Contact</li>
+        <li onClick={changeBgColor}>Theme</li>
       </ul>
       <RxHamburgerMenu id="hamburgeIcon" onClick={toggleNavbar} />
     </nav>

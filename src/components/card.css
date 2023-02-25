@@ -1,11 +1,11 @@
 .card {
     width: 50%;
     background-color: #211f1f;
-    /* color: #fb7430; */
+    /* color: var(--bg-color); */
 }
 
 .card-button {
-    background-color: #fb7430;
+    background-color: var(--bg-color);
     border: 2px solid white;
     color: white;
     font-family: inherit;
@@ -28,11 +28,11 @@
 
 .card-button:hover {
     background-color: white;
-    color: #fb7430;
+    color: var(--bg-color);
 }
 
 .card-button:hover a {
-    color: #fb7430;
+    color: var(--bg-color);
 }
 
 .usedSkills {
