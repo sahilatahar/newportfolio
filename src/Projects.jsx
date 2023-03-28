@@ -137,7 +137,7 @@ const Projects = () => {
     },
     {
       title: "20+ HTML, CSS, JavaScript Projects",
-      desc: "15+ projects using pure HTML, CSS, Vanilla JavaScript.",
+      desc: "20+ Mini projects using pure HTML, CSS, Vanilla JavaScript.",
       btnText: "Visit GitHub",
       imgSrc: webProjectsImage,
       btnUrl: "https://github.com/sahilatahar/HTML-CSS-JavaScript/",
