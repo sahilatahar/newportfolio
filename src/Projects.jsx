@@ -25,7 +25,7 @@ const Projects = () => {
       desc: "An Todo & Notes App created using Flutter, SQL. It has multiple features. You can try it.",
       btnText: "Download App",
       imgSrc: todoAppImage,
-      btnUrl: "https://github.com/Sahil-Atahar/Todo-The-Task-Keeper",
+      btnUrl: "https://github.com/sahilatahar/Todo-The-Task-Keeper",
       usedSkills: [
         <div className="icons">
           <RiFlutterFill className="icon" />
@@ -69,7 +69,7 @@ const Projects = () => {
       desc: "A Simple Portfolio created using React, Bootstrap 5.",
       btnText: "Live Demo",
       imgSrc: prePortfolioImage,
-      btnUrl: "https://sahil-atahar.github.io/portfolio",
+      btnUrl: "https://sahilatahar.github.io/portfolio",
       usedSkills: [
         <div className="icons">
           <AiFillHtml5 className="icon" />
@@ -98,7 +98,7 @@ const Projects = () => {
       desc: "A Simple responsive website using pure HTML and Bootstrap 5.",
       btnText: "Live Demo",
       imgSrc: responsiveWebImage,
-      btnUrl: "https://sahil-atahar.github.io/Responsive-Website/",
+      btnUrl: "https://sahilatahar.github.io/Responsive-Website/",
       usedSkills: [
         <div className="icons">
           <AiFillHtml5 className="icon" />
@@ -119,7 +119,7 @@ const Projects = () => {
       desc: "A Quiz website using pure HTML, CSS, JavaScript with Admin Panel.",
       btnText: "Visit GitHub",
       imgSrc: quizzerImage,
-      btnUrl: "https://github.com/Sahil-Atahar/Quizzer-with-Some-Features",
+      btnUrl: "https://github.com/sahilatahar/Quizzer-with-Some-Features",
       usedSkills: [
         <div className="icons">
           <AiFillHtml5 className="icon" />
@@ -136,11 +136,11 @@ const Projects = () => {
       ],
     },
     {
-      title: "15+ HTML, CSS, JavaScript Projects",
-      desc: "15+ projects using pure HTML, CSS, Vannila JavaScript.",
+      title: "20+ HTML, CSS, JavaScript Projects",
+      desc: "15+ projects using pure HTML, CSS, Vanilla JavaScript.",
       btnText: "Visit GitHub",
       imgSrc: webProjectsImage,
-      btnUrl: "https://github.com/Sahil-Atahar/HTML-CSS-JavaScript/",
+      btnUrl: "https://github.com/sahilatahar/HTML-CSS-JavaScript/",
       usedSkills: [
         <div className="icons">
           <AiFillHtml5 className="icon" />

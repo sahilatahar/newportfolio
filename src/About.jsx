@@ -22,14 +22,14 @@ const About = () => {
               particularly interested in front-end development. I have completed
               several small projects for practice, including{" "}
               <a
-                href="https://sahil-atahar.github.io/Responsive-Website/"
+                href="https://sahilatahar.github.io/Responsive-Website/"
                 target="_blank"
               >
                 <strong className="text-color">Responsive Website</strong>
               </a>{" "}
               and{" "}
               <a
-                href="https://sahil-atahar.github.io/portfolio"
+                href="https://sahilatahar.github.io/portfolio"
                 target="_blank"
               >
                 <strong className="text-color">Another Portfolio</strong>

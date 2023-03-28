@@ -5,10 +5,10 @@ import { BsGithub, BsLinkedin, BsInstagram, BsTwitter } from "react-icons/bs";
 
 export default function Footer() {
   const links = [
-    "https://github.com/sahil-atahar/",
-    "https://linked.in/sahil-atahar-100366245/",
+    "https://github.com/sahilatahar/",
+    "https://linked.in/sahilatahar-100366245/",
     "https://instagram.com/sahilatahar",
-    "https://twitter.com/sahil_atahar",
+    "https://twitter.com/sahilatahar",
   ];
 
   function openLink(index) {

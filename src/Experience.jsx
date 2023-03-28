@@ -25,7 +25,7 @@ const Experience = () => {
             </p>
             <Button
               text="Checkout Projects"
-              url="https://github.com/Sahil-Atahar?tab=repositories&q=&type=&language=javascript&sort="
+              url="https://github.com/sahilatahar?tab=repositories&q=&type=&language=javascript&sort="
             />
           </div>
 
@@ -42,7 +42,7 @@ const Experience = () => {
             </p>
             <Button
               text="Checkout Projects"
-              url="https://github.com/Sahil-Atahar?tab=repositories&q=&type=&language=dart&sort="
+              url="https://github.com/sahilatahar?tab=repositories&q=&type=&language=dart&sort="
             />
           </div>
         </div>
@@ -58,7 +58,7 @@ const Experience = () => {
             </p>
             <Button
               text="Checkout Projects"
-              url="https://github.com/Sahil-Atahar?tab=repositories"
+              url="https://github.com/sahilatahar?tab=repositories"
             />
           </div>
         </div>
